@@ -1,0 +1,106 @@
+/* src/components/WaterCal.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.dark-mode-body {
+  background-color: black !important;
+  color: white;
+}
+
+.main-container {
+  width: 90%;
+  max-width: 600px;
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.dark-mode-container {
+  background-color: rgb(44, 39, 39);
+  box-shadow: 0 4px 20px rgb(29, 25, 25);
+}
+
+.input-area {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 28px;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.water-icon {
+  height: 1.2em;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+.mode-icon {
+  height: 2em;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.add-btn {
+  padding: 10px 16px;
+  background-color: rgb(37, 104, 170);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #72abec;
+}
+
+.btn-mode,
+.btn-mode02 {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 8px;
+  display: block;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.btn-mode {
+  background-color: black;
+}
+
+.btn-mode:hover {
+  background-color: #3b3b3b;
+}
+
+.btn-mode02 {
+  background-color: whitesmoke;
+}
